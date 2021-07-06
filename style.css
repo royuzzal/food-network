@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0%;
 }
 h1{
     font-size: 50px;
@@ -7,19 +9,30 @@ h1{
 h2{
     font-size: 40px;
 }
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: orange;
+    cursor: pointer;
+    font-size: 20px;
+}
 .color{
     color: orange;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 80%;
+    padding: 5%;
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
 }
 .button-item{
     text-decoration: none;
@@ -29,10 +42,32 @@ h2{
     padding: 10px 20px;
     border-radius: 20px;
 }
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
 .about-me{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
-section h2{
+.new-recipies{
     text-align: center;
 }
+.recipies-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 20px solid white;
+}
+.recipies-item img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 5px;
+}
+.footer-item{
+    text-align: center;
+    color:whitesmoke;
+    background-color:black;
+    padding: 15px;
